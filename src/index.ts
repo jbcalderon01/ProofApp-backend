@@ -16,6 +16,6 @@ const app = createRestServer()
 const httpServer = createServer(app)
 
 // Start REST Server
-httpServer.listen(config.API.PORT, () => {
-    console.log(`server listen ${ config.API.PROTOCOL }//:${ config.API.HOST }:${ config.API.PORT }`)
+httpServer.listen(config.API.URL, () => {
+    console.log('server listen')
 })

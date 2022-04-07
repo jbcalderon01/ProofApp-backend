@@ -9,14 +9,14 @@
     "start": "cross-env NODE_ENV=production node dist/index.js"
   },
   "_moduleAliases": {
-    "@core": "src/core",
-    "@config": "src/config",
-    "@data": "src/data",
-    "@utils": "src/utils",
-    "@lib": "src/config/lib",
-    "@graphql": "src/api/graphql",
-    "@rest": "src/api/rest",
-    "@common": "src/common"
+    "@core": "dist/core",
+    "@config": "dist/config",
+    "@data": "dist/data",
+    "@utils": "dist/utils",
+    "@lib": "dist/config/lib",
+    "@graphql": "dist/api/graphql",
+    "@rest": "dist/api/rest",
+    "@common": "dist/common"
   },
   "dependencies": {
     "cors": "^2.8.5",

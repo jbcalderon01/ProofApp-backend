@@ -11,7 +11,7 @@ export const config = {
         VERSION: process.env.API_VERSION || 1,
         HOST: process.env.API_HOSTNAME || 'localhost',
         PROTOCOL: process.env.API_PROTOCOL || 'http',
-        URL: 'https://api-proof-app.herokuapp.com'
+        URL: 'http://localhost:4050'
     },
     DB: {
         SEQUELIZE: {

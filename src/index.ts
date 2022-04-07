@@ -1,13 +1,11 @@
 
-import { config } from './config'
-
 import { createServer } from 'http'
+
+import { config } from './config/index'
 
 import 'module-alias/register'
 import 'express-async-errors'
-import { createRestServer } from '@config/server/rest.server'
-
-import { ErrorMiddleware } from './common/middleware'
+import { createRestServer } from './config/server/rest.server'
 
 // REST Router
 
@@ -16,9 +14,6 @@ const app = createRestServer()
 
 // Create an init the server
 const httpServer = createServer(app)
-
-// Error Middleware handling
-app.use(ErrorMiddleware)
 
 // Start REST Server
 httpServer.listen(config.API.PORT, () => {

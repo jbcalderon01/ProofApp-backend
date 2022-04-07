@@ -1,6 +1,6 @@
-import { ClientEntity } from '@core/clients/clients.entity';
-import { ClientRepository } from '@core/clients/clients.repository';
-import { ClientsModel } from '@data/clients/models';
+import { ClientEntity } from '../../../../core/clients/clients.entity'
+import { ClientRepository } from '../../../../core/clients/clients.repository'
+import { ClientsModel } from '../../models'
 
 class ClientDS implements ClientRepository {
     async getAll(params?: any): Promise<ClientEntity[]> {

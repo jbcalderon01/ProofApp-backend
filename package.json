@@ -1,22 +1,12 @@
 {
   "name": "proof-app",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --respawn --notify false --prefer-ts --ignore-watch node_modules -- src/index.ts ",
     "build": "tsc -b",
     "start": "cross-env NODE_ENV=production node dist/index.js"
-  },
-  "_moduleAliases": {
-    "@core": "dist/core",
-    "@config": "dist/config",
-    "@data": "dist/data",
-    "@utils": "dist/utils",
-    "@lib": "dist/config/lib",
-    "@graphql": "dist/api/graphql",
-    "@rest": "dist/api/rest",
-    "@common": "dist/common"
   },
   "dependencies": {
     "cors": "^2.8.5",

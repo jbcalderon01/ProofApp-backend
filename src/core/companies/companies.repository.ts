@@ -1,5 +1,5 @@
 
-import { Repository } from '@common/generic/index'
+import { Repository } from '../../common/generic'
 
 import { CompanyEntity } from './companies.entity'
 

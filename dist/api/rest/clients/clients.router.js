@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const clients_datasource_1 = __importDefault(require("@data/clients/datasources/clients/clients.datasource"));
-const clients_interactor_1 = require("@core/clients/clients.interactor");
+const clients_interactor_1 = require("../../../core/clients/clients.interactor");
+const clients_datasource_1 = __importDefault(require("../../../data/clients/datasources/clients/clients.datasource"));
 const clients_controller_1 = require("./clients.controller");
 const clientRouter = (0, express_1.Router)();
 const clientDataSource = new clients_datasource_1.default();

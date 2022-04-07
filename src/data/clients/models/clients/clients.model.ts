@@ -1,5 +1,6 @@
-import sequelizeDB from '@config/connection/sequelize';
 import { DataTypes } from 'sequelize'
+
+import sequelizeDB from '../../../../config/connection/sequelize'
 
 const db = sequelizeDB()
 

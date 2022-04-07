@@ -1,7 +1,8 @@
 
 import { Router } from 'express'
-import ClientDS from '@data/clients/datasources/clients/clients.datasource'
-import { ClientInteractor } from '@core/clients/clients.interactor'
+
+import { ClientInteractor } from '../../../core/clients/clients.interactor'
+import ClientDS from '../../../data/clients/datasources/clients/clients.datasource'
 
 import { ClientController } from './clients.controller'
 

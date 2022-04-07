@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const companies_datasource_1 = __importDefault(require("@data/companies/datasources/companies.datasource"));
-const companies_interactor_1 = require("@core/companies/companies.interactor");
+const companies_interactor_1 = require("../../../core/companies/companies.interactor");
+const companies_datasource_1 = __importDefault(require("../../../data/companies/datasources/companies.datasource"));
 const companies_controller_1 = require("./companies.controller");
 const companiesRouter = (0, express_1.Router)();
 const companiesDataSource = new companies_datasource_1.default();

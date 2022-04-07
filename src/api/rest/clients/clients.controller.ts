@@ -1,6 +1,6 @@
 
-import { Controller, Interactor } from '@common/generic';
-import { ClientEntity } from '@core/clients/clients.entity';
+import { Controller, Interactor } from '../../../common/generic';
+import { ClientEntity } from '../../../core/clients/clients.entity';
 
 export class ClientController extends Controller<ClientEntity>{
     interactor: Interactor<ClientEntity>

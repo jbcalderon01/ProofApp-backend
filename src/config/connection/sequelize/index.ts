@@ -1,6 +1,7 @@
-import { config } from '@config/index'
 import { Sequelize } from 'sequelize'
 import { Sequelize as TSequelize } from 'sequelize/types'
+
+import { config } from '../..'
 
 let dbInstance: TSequelize | null = null
 

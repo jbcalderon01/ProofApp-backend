@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const models_1 = require("@data/clients/models");
+const models_1 = require("../../models");
 class ClientDS {
     getAll(params) {
         return __awaiter(this, void 0, void 0, function* () {

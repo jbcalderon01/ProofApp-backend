@@ -1,5 +1,5 @@
 
-import { Interactor } from '@common/generic'
+import { Interactor } from '../../common/generic'
 
 import { CompanyEntity } from './companies.entity'
 import { CompaniesRepository } from './companies.repository'

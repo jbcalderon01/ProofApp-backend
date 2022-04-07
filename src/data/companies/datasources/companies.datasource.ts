@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { CompanyEntity } from '@core/companies/companies.entity';
-import { CompaniesRepository } from '@core/companies/companies.repository';
-import { CompaniesModel } from '@data/companies/models';
+
+import { CompanyEntity } from '../../../core/companies/companies.entity'
+import { CompaniesRepository } from '../../../core/companies/companies.repository'
+import { CompaniesModel } from '../models'
 
 class CompaniesDS implements CompaniesRepository {
     async getAll(params?: any): Promise<CompanyEntity[]> {

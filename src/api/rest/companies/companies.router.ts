@@ -1,7 +1,8 @@
 
 import { Router } from 'express'
-import CompaniesDS from '@data/companies/datasources/companies.datasource'
-import { CompanyInteractor } from '@core/companies/companies.interactor'
+
+import { CompanyInteractor } from '../../../core/companies/companies.interactor'
+import CompaniesDS from '../../../data/companies/datasources/companies.datasource'
 
 import { CompaniesController } from './companies.controller'
 

@@ -1,5 +1,5 @@
 
-import { Interactor } from '@common/generic'
+import { Interactor } from '../../common/generic'
 
 import { ClientEntity } from './clients.entity'
 import { ClientRepository } from './clients.repository'

@@ -1,4 +1,3 @@
-
 {
     "compilerOptions": {
         /* Language and Environment */
@@ -8,17 +7,6 @@
         "module": "commonjs",
         "rootDir": "./src",
         "moduleResolution": "node",
-        "baseUrl": "./src",
-        "paths": {
-        "@core/*": ["core/*"],
-        "@config/*": ["config/*"],
-        "@data/*": ["data/*"],
-        "@utils/*": ["utils/*"],
-        "@graphql/*": ["api/graphql/*"],
-        "@rest/*": ["api/rest/*"],
-        "@lib/*": ["config/lib/*"],
-        "@common/*": ["common/*"]
-        },
         /* Emit */
         "outDir": "./dist",
         "removeComments": true,

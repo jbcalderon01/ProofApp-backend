@@ -1,7 +1,7 @@
 {
-  "name": "ProofApp",
+  "name": "proof-app",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --respawn --notify false --prefer-ts --ignore-watch node_modules -- src/index.ts ",
